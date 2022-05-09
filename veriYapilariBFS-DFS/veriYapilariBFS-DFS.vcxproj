@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="veri.cpp" />
     <ClCompile Include="veriYapilariBFS-DFS.cpp" />
   </ItemGroup>
   <ItemGroup>

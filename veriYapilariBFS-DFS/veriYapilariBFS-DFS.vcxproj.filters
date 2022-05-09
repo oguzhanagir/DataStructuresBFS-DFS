@@ -18,6 +18,9 @@
     <ClCompile Include="veriYapilariBFS-DFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="veri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="veri.h">
