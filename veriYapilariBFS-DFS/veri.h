@@ -15,9 +15,10 @@ struct Dugum {		//Agacta yer alan her bir dugumun veri yapisi
 
 struct IkiliSiralamaAgaci {	//Ikili siralama agaci veri yapisi
     Dugum* kok;			//Agac kokune isaretci
-    Dugum* agacOlustur(int deger);
+    Dugum* agacOlustur(int deger); //Agac icin baslangýc degerleri belirler
     Dugum* agacKur(Dugum* root,int* deger);	//Dizi isaretcisi alir ve dizinin elemanlarini ikili siralama agacina uygun sekilde yerlestirir
-    void agacKapat();		//Agacin dugumleri icin alinan bellek gozlerini program sonlanmadan hemen once iade eder
+    void agacKapat(Dugum* temp);		//Agacin dugumleri icin alinan bellek gozlerini program sonlanmadan hemen once iade eder
+    Dugum* degerAra(Dugum* kok, int deger); // Girilen degeri için arama iþlemi gerçekleþtirir
 };
 
 
